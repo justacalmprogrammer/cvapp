@@ -1,9 +1,39 @@
+import Title from "./shared/title";
+import { dataAboutMe } from "@/data";
+import { Button } from "./ui/button";
+import { Phone } from "lucide-react";
+
 const AboutMe = () => {
-    return ( 
+    return (
         <div className="p-6 md:px-12 md:py-20 max-w-5xl mx-auto" id="about-me">
-            <h1>About me </h1>
+            <Title title="Sobre mi" subtitle="Conóceme" />
+
+            <div className="grid md:grid-cols-2">
+                <div className="py-12 md:py-0 flex items-center justify-center">
+                    {/* CAROUSEL */}
+                </div>
+                <div>
+
+
+                    <div className="grid md:grid-cols-3 mt-7 gap-4">
+                        {dataAboutMe.map((data) => (
+                            <div key={data.id} className="border border-white-10 rounded-xl p-4 shadow-md shadow-slate-100 dark:bg-slate-800">
+                                {data.icon}
+                                <p className="my-2">{data.name}</p>
+                                <p className="text-gray-400">{data.description}</p>
+                            </div>
+                        ))}
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus nostrum deleniti aut quibusdam architecto consequatur, saepe illo, soluta natus culpa pariatur accusamus beatae in quisquam fugit nam aperiam excepturi eaque.
+                    </p>
+                    <Button>
+                        <Phone size={20} className="mr-2" />Hablamos
+                    </Button>
+                </div>
+            </div>
         </div>
-     );
+    );
 }
- 
+
 export default AboutMe
