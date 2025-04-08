@@ -1,9 +1,18 @@
 import Title from "./shared/title";
-import { dataAboutMe } from "@/data";
 import { Button } from "./ui/button";
 import { Phone } from "lucide-react";
+import {
+    Carousel,
+    CarouselContent,
+    CarouselItem,
+    CarouselNext,
+    CarouselPrevious,
+} from "@/components/ui/carousel"
+import { dataAboutMe, dataSlider } from "@/data";
+import Image from "next/image";
 
 const AboutMe = () => {
+    
     return (
         <div className="p-6 md:px-12 md:py-20 max-w-5xl mx-auto" id="about-me">
             <Title title="Sobre mi" subtitle="Conóceme" />
@@ -11,6 +20,29 @@ const AboutMe = () => {
             <div className="grid md:grid-cols-2">
                 <div className="py-12 md:py-0 flex items-center justify-center">
                     {/* CAROUSEL */}
+                    <Carousel
+                        opts={{
+                            align: "start"
+                        }}
+                        orientation="vertical"
+                        className="w-full max-w-xs h-fit"
+                    >
+                        <CarouselContent className="-mt-1 h-[200px]">
+                            {dataSlider.map((data) => (
+                                <CarouselItem key={data.id}>
+                                    <div className="flex items-center justify-center">
+                                        <Image
+                                            src={data.url}
+                                            alt="Image"
+                                            width={250} height={400}
+                                            className="w-full h-auto rounded-lg" />
+                                    </div>
+                                </CarouselItem>
+                            ))}
+                        </CarouselContent>
+                        <CarouselPrevious />
+                        <CarouselNext />
+                    </Carousel>
                 </div>
                 <div>
 
