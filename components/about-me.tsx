@@ -56,7 +56,7 @@ const AboutMe = () => {
                             </div>
                         ))}
                     </div>
-                    <p>
+                    <p className="my-8">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus nostrum deleniti aut quibusdam architecto consequatur, saepe illo, soluta natus culpa pariatur accusamus beatae in quisquam fugit nam aperiam excepturi eaque.
                     </p>
                     <Button>
