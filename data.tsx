@@ -207,21 +207,24 @@ export const dataServices = [
             {
                 name: "Diseño y desarrollo responsive",
             },
-            {
-                name: "Optimización SEO",
-            },
+            // {
+            //     name: "Optimización SEO",
+            // },
             {
                 name: "Desarrollo de aplicaciones web",
             },
-            {
-                name: "Gestión de contenido",
-            },
-            {
-                name: "Comercio electrónico",
-            },
+            // {
+            //     name: "Gestión de contenido",
+            // },
+            // {
+            //     name: "Comercio electrónico",
+            // },
             {
                 name: "Mantenimiento y soporte continuo",
             },
+            {
+                name:"Implementación de testeos para prevenir errores"
+            }
         ],
     },
     {
@@ -229,15 +232,15 @@ export const dataServices = [
         title: "Creación de contenido",
         icon: <BellPlus />,
         features: [
-            {
-                name: "Redacción de contenido original y de calidad",
-            },
-            {
-                name: "Creación de vídeos atractivos y dinámicos",
-            },
-            {
-                name: "Diseño gráfico para una imagen impactante",
-            },
+            // {
+            //     name: "Redacción de contenido original y de calidad",
+            // },
+            // {
+            //     name: "Creación de vídeos atractivos y dinámicos",
+            // },
+            // {
+            //     name: "Diseño gráfico para una imagen impactante",
+            // },
             {
                 name: "Edición profesional de textos y materiales visuales",
             },
@@ -247,9 +250,9 @@ export const dataServices = [
             {
                 name: "Producción de podcasts informativos y entretenidos",
             },
-            {
-                name: "Generación de infografías claras y visualmente atractivas",
-            },
+            // {
+            //     name: "Generación de infografías claras y visualmente atractivas",
+            // },
             {
                 name: "Fotografía profesional para capturar momentos excepcionales",
             },
