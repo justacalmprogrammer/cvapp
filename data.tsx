@@ -118,7 +118,65 @@ export const dataPortfolio = [
     },
 ];
 
+export const dataExperenceg = [
+    {
+        id: 1,
+        title: "Frontend Development ",
+        experience: [
+            {
+                imageUrl: "",
+                alt: "HTML"
+            },
+            {
+                imageUrl: "",
+                alt: "CSS"
+            },
+            {
+                imageUrl: "",
+                alt: "JavaScript"
+            },
+            {
+                imageUrl: "",
+                alt: "TailwindCSS",
+            },
+            {
+                imageUrl: "",
+                alt: "React"
+            }, {
+                imageUrl: "",
+                alt: "Figma"
+            },
+            {
+                imageUrl: "",
+                alt: "Bootstrap"
+            }
+        ]
+    }, {
 
+        id: 1,
+        title: "Backend Development ",
+        experience: [
+            {
+                imageUrl: "",
+                alt: "Node JS"
+            },
+            {
+                imageUrl: "",
+                alt: "Mongo DB"
+            }, {
+                imageUrl: "",
+                alt: "Python"
+            },
+            {
+                imageUrl: "",
+                alt: "MySQL"
+            }, {
+                imageUrl: "",
+                alt: "Java"
+            }
+        ]
+    }
+]
 export const dataExperience = [
     {
         id: 1,
@@ -152,7 +210,7 @@ export const dataExperience = [
             {
                 name: "Bootstrap",
                 subtitle: "Basic",
-                value: 50,
+                value: 100,
             },
         ],
     },
@@ -223,7 +281,7 @@ export const dataServices = [
                 name: "Mantenimiento y soporte continuo",
             },
             {
-                name:"Implementación de testeos para prevenir errores"
+                name: "Implementación de testeos para prevenir errores"
             }
         ],
     },
