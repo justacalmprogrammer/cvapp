@@ -124,36 +124,36 @@ export const dataExperenceg = [
         title: "Frontend Development ",
         experience: [
             {
-                imageUrl: "",
+                imageUrl: "/html-5.png",
                 alt: "HTML"
             },
             {
-                imageUrl: "",
+                imageUrl: "/css-3.png",
                 alt: "CSS"
             },
             {
-                imageUrl: "",
+                imageUrl: "/js.png",
                 alt: "JavaScript"
             },
             {
-                imageUrl: "",
+                imageUrl: "/Tailwind_css.png",
                 alt: "TailwindCSS",
             },
             {
-                imageUrl: "",
+                imageUrl: "/react.png",
                 alt: "React"
             }, {
-                imageUrl: "",
+                imageUrl: "/figma.png",
                 alt: "Figma"
             },
             {
-                imageUrl: "",
+                imageUrl: "/bootstrap.png",
                 alt: "Bootstrap"
             }
         ]
     }, {
 
-        id: 1,
+        id: 2,
         title: "Backend Development ",
         experience: [
             {
