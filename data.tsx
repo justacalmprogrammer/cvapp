@@ -157,21 +157,14 @@ export const dataExperenceg = [
         title: "Backend Development ",
         experience: [
             {
-                imageUrl: "",
+                imageUrl: "/node.png",
                 alt: "Node JS"
             },
             {
-                imageUrl: "",
-                alt: "Mongo DB"
-            }, {
-                imageUrl: "",
-                alt: "Python"
-            },
-            {
-                imageUrl: "",
+                imageUrl: "/Mysql.png",
                 alt: "MySQL"
             }, {
-                imageUrl: "",
+                imageUrl: "/java.png",
                 alt: "Java"
             }
         ]
