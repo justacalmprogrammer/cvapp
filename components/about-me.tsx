@@ -15,7 +15,7 @@ const AboutMe = () => {
     
     return (
         <div className="p-6 md:px-12 md:py-20 max-w-5xl mx-auto" id="about-me">
-            <Title title="Sobre mi" subtitle="Conóceme" />
+            <h2 className="text-3xl flex flex-col items-center">Conóceme</h2>
 
             <div className="grid md:grid-cols-2">
                 <div className="py-12 md:py-0 flex items-center justify-center">

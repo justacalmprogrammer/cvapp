@@ -1,4 +1,5 @@
 import AboutMe from "@/components/about-me";
+import Contact from "@/components/contact";
 import Experience from "@/components/experience";
 import Experienceg from "@/components/experienceg";
 import Introduction from "@/components/Introduction";
@@ -13,11 +14,11 @@ export default function Home() {
     <div>
       <Navbar/>
       <Introduction/>
-      <AboutMe/>
+      {/* <AboutMe/> */}
       <Experienceg/>
-      <Experience/>
       <Services/> 
-      <Portfolio/>
+      {/* <Portfolio/> */}
+      <Contact/>
     </div>
    
   );

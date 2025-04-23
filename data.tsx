@@ -150,7 +150,7 @@ export const dataExperenceg = [
                 imageUrl: "/bootstrap.png",
                 alt: "Bootstrap"
             }
-        ]
+        ]   
     }, {
 
         id: 2,
@@ -341,22 +341,22 @@ export const dataContact = [
     {
         id: 1,
         title: "Teléfono",
-        subtitle: "+34 677 66 66 33",
-        link: "tel:+34677666633",
+        subtitle: "+54 3462 636198",
+        link: "tel:+543462636198",
         icon: <Phone />,
     },
     {
         id: 2,
         title: "Github",
-        subtitle: "github.com/ratasi",
-        link: "github.com/ratasi",
+        subtitle: "github.com/justacalmprogrammer",
+        link: "github.com/justacalmprogrammer",
         icon: <Code2 />,
     },
     {
         id: 3,
         title: "Email",
-        subtitle: "email@email.com",
-        link: "mailto:test@test.com",
+        subtitle: "justacalmprogrammer@gmail.com",
+        link: "justacalmprogrammer@gmail.com",
         icon: <Inbox />,
     },
 ];
