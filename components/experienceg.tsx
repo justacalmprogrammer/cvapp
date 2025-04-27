@@ -12,7 +12,7 @@ const Experienceg = () => {
                         <h3 className="text-center text-xl mb-20">{data.title}</h3>
                         <div className="grid md:grid-cols-2 gap-4 ">
                             {data.experience.map((item) => (
-                                <div>
+                                <div className="flex items-center">
                                     {
                                     <Image
                                     src={item.imageUrl}
