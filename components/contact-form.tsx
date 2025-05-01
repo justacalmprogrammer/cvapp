@@ -62,7 +62,7 @@ const ContactForm = () => {
                     />
                     <FormField
                         control={form.control}
-                        name="email" 
+                        name="email"  
                         render={({ field }) => (
                             <FormItem>
                                 <FormControl>

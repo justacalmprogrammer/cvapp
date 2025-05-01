@@ -11,7 +11,7 @@ const Contact = () => {
                 <div>
                     {dataContact.map((data) => (
                         <div key={data.id}
-                            className="flex flex-col items-center dark:bg-slate-800 rounded-lg mb-5 p-4"
+                            className="flex flex-col items-center bg-[#f1f5f9] dark:bg-slate-800   rounded-lg mb-5 p-4"
                         >
                             {data.icon}
                             <p>{data.title}</p>

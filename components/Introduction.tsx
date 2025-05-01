@@ -10,7 +10,7 @@ const Introduction = () => {
             <div className="text-center" id="home">
                 <h3 className="text-xl mb-3">Hello i´m</h3>
                 <h1 className="text-4xl font-bold mb-3">JustaCalmDeveloper</h1>
-                <h2 className="text-2xl text-gray-400">(FullstackDeveloper)</h2>
+                <h2 className="text-2xl"    >(FullstackDeveloper)</h2>
                 <div className="flex items-center">
                     <div className="flex flex-col md:flex-row gap-4 justifybetween mt-10 mx-auto">
                         <Link className={buttonVariants()} href="#contact">
